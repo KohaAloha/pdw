@@ -17,12 +17,6 @@ body, html {
     position: relative; /* Needed for any absolutely positioned content inside */
 }
 
-/* Example media query for very large screens */
-@media (min-width: 1200px) {
-    #banner {
-        padding-top: 45.8%; /* Adjust this value based on your actual aspect ratio */
-    }
-}
 
 
 #slideshow {
@@ -67,34 +61,6 @@ body, html {
     width: 100%;
     height: auto;
     
-}
-
-
-@media (max-width: 768px) {
-    #slideshow, #logo {
-        left: 10%; /* More margin on smaller screens */
-        width: 30%; /* Adjust width to fit smaller screens better */
-    }
-
-    #slideshow {
-        top: 5%; /* Adjust position */
-        font-size: 5vw; /* Slightly larger text on smaller screens */
-    }
-
-    #logo {
-        top: 60%; /* Lower the logo to avoid overlap */
-        width: 25vw; /* Larger relative size on smaller screens */
-    }
-}
-
-@media (max-width: 480px) {
-    #slideshow {
-        font-size: 6vw; /* Even larger text for very small screens */
-    }
-
-    .client-logo {
-        width: 30vw; /* Adjust width for very small devices */
-    }
 }
 
 
